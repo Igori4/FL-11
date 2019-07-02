@@ -1,0 +1,459 @@
+body {
+  font-family: roboto;
+  background-color: #0b192f;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+.main_logo {
+  font-size: 30px;
+  margin: auto 10px;
+  font-weight: 100;
+}
+
+.main_logo span {
+  color:#d12767;
+}
+
+.nav_items {
+  height: 90px;
+  width: 35%;
+  padding: 0;
+  justify-content: space-around;
+  display: flex;
+  margin: 0;
+  list-style: none;
+  align-items: center;
+}
+
+.nav_link {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 100;
+}
+
+.nav_items a {
+  text-decoration: none;
+  font-weight: 100;
+  color: #fff;
+  font-size: 17px;
+}
+
+.nav_links {
+  height: 89px;
+  width: 75px;
+  line-height: 89px;
+  align-items: center;
+  text-align: center;
+}
+
+.nav_links:hover {
+  background-color: #b8b8b82a;
+}
+
+
+.nav {
+  background-color: #162b4d;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  max-width: 1400px;
+}
+
+.responsive_button {
+  background: none;
+  border: none;
+  font-size: 33px;
+  color: white;
+  display: none;
+}
+
+.main {
+  max-width: 1400px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.main_container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.main_content {
+  width: 75%;
+  margin: 20px 20px 20px 0;
+}
+
+.main_travel_blog {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.main_travel_blog .main_post-image, .main_responsive_text {
+  flex-basis: 50%;
+  height: 400px;
+}
+
+.post_image-1 {
+  background-image: url(/img/post1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.post_image-2 {
+  background-image: url(/img/post2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.post_image-3 {
+  background-image: url(/img/post3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.post_image-4 {
+  background-image: url(/img/post4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.news-1 {
+  background-image: url(/img/news1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+}
+
+.news-2 {
+  background-image: url(/img/news2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 230px;
+}
+
+.main_post-image:hover, .main_responsive_text:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.main_responsive_text {
+  display: flex;
+}
+
+.content_block {
+  display: flex;
+  flex-direction: row;
+}
+
+.responsive_description {
+  margin: 30px;
+  text-align: left;
+  flex-basis: 80%;
+}
+
+.responsive_description h1 {
+  font-weight: 100;
+  color: #fff;
+  font-size: 60px;
+}
+
+.responsive_description p {
+  color: #ffffff82;
+  font-weight: 100;
+  margin-top: 15px;
+  font-size: 20px;
+}
+
+.data_post {
+  display: flex;
+  flex-direction: column;
+  color: rgba(255, 255, 255, 0.486);
+}
+
+.data_post p {
+  font-size: 3vw;
+  font-weight: 100;
+  margin: 10px 10px 10px 15px;
+}
+
+.data_post span {
+  margin: 0 19px 12px auto;
+  font-size: 25px;
+  font-weight: 100;
+}
+
+.post-1 {
+	background: #B71757;
+}
+.post-2 {
+	background: #0D7E71;
+}
+.post-3 {
+	background: #b1660e;
+}
+.post-4 {
+	background: #d12767;
+}
+.post-5 {
+	background: #2d95bb;
+}
+
+.aside {
+  width: 25%;
+  margin-top: 10px;
+}
+
+.aside_article {
+  margin: 10px 0;
+}
+
+.news_container {
+  background-color: #fff;
+  padding: 30px;
+  text-align: left;
+  font-weight: 100;
+}
+
+.news_title {
+  font-size: 35px;
+  font-weight: 300;
+}
+
+.news_description {
+  line-height: 25px;
+  color: #adadad;
+}
+
+.info_text h2 {
+  font-weight: 100;
+  font-size: 40px;
+  color: #fff;
+  margin: 11px 0 0;
+}
+
+.info_text p {
+  font-weight: 100;
+  color: #d4d0d0d1;
+  margin: 10px 0;
+}
+
+.info_text {
+  text-align: left;
+  padding: 20px;
+}
+
+.addition_bottom_info .data_post span {
+  margin: 0 9px 12px auto;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.addition_bottom_info .data_post p {
+  font-size: 2vw;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  max-width: 1400px;
+  background-color: #162b4d;
+  margin: 20px auto 0;
+}
+
+.copyright {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.404);
+  margin: auto auto auto 20px;
+  font-weight: 300;
+}
+
+.copyright h4 {
+  font-weight: 300;
+}
+
+.copytight_addition {
+  width: 10%;
+  margin: auto 10px;
+  color: rgba(255, 255, 255, 0.404);
+  font-weight: 300;
+}
+@media (min-width:768px) {
+  
+  .main_responsive_text:nth-child(odd) {
+    flex-direction: row-reverse;
+  }
+
+  .addition_bottom_info {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+@media (max-width: 1224px) {
+
+  .responsive_description {
+    margin: 10px;
+  }
+  .responsive_description h1 {
+    font-size: 4vw;
+  }
+  .responsive_description p {
+    font-size: 20px;
+  }
+
+  .news_container .news_title {
+    font-size: 25px;
+  }
+
+  .news_description {
+    line-height: 17px;
+  }
+
+  .data_post span {
+    margin: 0 5px 3px auto;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .nav {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+  }
+
+  .nav_items {
+    display: none;
+  }
+
+  .responsive_button {
+    display: block;
+  }
+
+  .responsive_button button {
+    background: none;
+    border: none;
+    font-size: 33px;
+    color: white;
+    cursor: pointer;
+  }
+
+  .responsive_description h1 {
+    margin: 20px;
+  }
+
+  .main_content {
+    width: 60%;
+  }
+
+  .main_travel_blog .main_post-image, .main_responsive_text {
+    flex-basis: 100%;
+  }
+
+  .aside {
+    width: 35%;
+  }
+
+  .content_block:nth-child(odd) {
+    flex-direction: column;
+    height: 600px;
+  }
+
+  .content_block:nth-child(even) {
+    flex-direction: column-reverse;
+    height: 600px;
+  }
+
+  .data_post span {
+    font-size: 18px;
+}
+
+  .copyright {
+    margin: auto;
+    text-align: center;
+  }
+
+  .copytight_addition {
+    font-size: 1.5vw;
+  }
+
+  .footer {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .main {
+    flex-direction: column;
+  }
+
+  .main_content {
+    width: 100%;
+    margin: 20px 20px 0px 0;
+  }
+
+  .aside {
+    width: 100%;
+    margin-top: 0px;
+  }
+  .addition_bottom_info .data_post p {
+    font-size: 47px;
+  }
+
+  .data_post p {
+    margin: auto;
+    font-size: 47px;
+  }
+
+  .main_responsive_text {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .data_post span {
+    margin: auto;
+    font-size: 28px;
+  }
+
+  .addition_bottom_info .data_post span {
+    margin: auto;
+    font-size: 29px;
+  }
+  .responsive_description h1 {
+    font-size: 30px;
+ }
+
+ .responsive_description p {
+  font-size: 14px;
+ }
+
+ .copytight_addition {
+  width: 50%;
+  font-size: 15px;
+ }
+
+ .footer {
+  height: 100px;
+ }
+
+}
